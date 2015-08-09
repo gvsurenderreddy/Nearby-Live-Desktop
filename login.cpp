@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "frm_login.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -11,4 +11,10 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::on_btn_login_clicked()
+{
+  ui->txt_username->setText("dad");
+
 }

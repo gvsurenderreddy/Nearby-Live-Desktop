@@ -12,11 +12,12 @@ TARGET = Nearby_Live
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    login.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    frm_login.h
 
-FORMS    += mainwindow.ui
+FORMS    += \
+    frm_login.ui
 
-dasdad
